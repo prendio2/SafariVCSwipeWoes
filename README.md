@@ -3,7 +3,7 @@
 Sample project for [rdar://23871289](http://openradar.appspot.com/23871289)
 
 ## Summary:
-Safari View Controller is not released if the status bar is animating a style change when swiping back and user ends the integration before the status bar animation is completed 
+Safari View Controller is not released if the status bar is animating a style change when swiping back and user ends the interaction before the status bar animation is completed 
 
 ## Steps to Reproduce:
 1. Present a Safari VC from a VC that has a UIStatusBarStyleLightContent status bar when Safari is not in private mode and has a default status bar
