@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93484AFF1C1C0C22004E921F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93484AFE1C1C0C22004E921F /* main.m */; };
+		93484B021C1C0C22004E921F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93484B011C1C0C22004E921F /* AppDelegate.m */; };
+		93484B051C1C0C22004E921F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93484B041C1C0C22004E921F /* ViewController.m */; };
+		93484B081C1C0C22004E921F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93484B061C1C0C22004E921F /* Main.storyboard */; };
+		93484B0A1C1C0C22004E921F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93484B091C1C0C22004E921F /* Assets.xcassets */; };
+		93484B0D1C1C0C22004E921F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93484B0B1C1C0C22004E921F /* LaunchScreen.storyboard */; };
+		93484B181C1C0C22004E921F /* SafariViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93484B171C1C0C22004E921F /* SafariViewControllerTests.m */; };
+		93484B231C1C0C22004E921F /* SafariViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93484B221C1C0C22004E921F /* SafariViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93484B141C1C0C22004E921F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93484AF21C1C0C22004E921F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93484AF91C1C0C22004E921F;
+			remoteInfo = SafariViewController;
+		};
+		93484B1F1C1C0C22004E921F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93484AF21C1C0C22004E921F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93484AF91C1C0C22004E921F;
+			remoteInfo = SafariViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93484AFA1C1C0C22004E921F /* SafariViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93484AFE1C1C0C22004E921F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93484B001C1C0C22004E921F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93484B011C1C0C22004E921F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93484B031C1C0C22004E921F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93484B041C1C0C22004E921F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93484B071C1C0C22004E921F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93484B091C1C0C22004E921F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93484B0C1C1C0C22004E921F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93484B0E1C1C0C22004E921F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93484B131C1C0C22004E921F /* SafariViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93484B171C1C0C22004E921F /* SafariViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariViewControllerTests.m; sourceTree = "<group>"; };
+		93484B191C1C0C22004E921F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93484B1E1C1C0C22004E921F /* SafariViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93484B221C1C0C22004E921F /* SafariViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariViewControllerUITests.m; sourceTree = "<group>"; };
+		93484B241C1C0C22004E921F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93484AF71C1C0C22004E921F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93484B101C1C0C22004E921F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93484B1B1C1C0C22004E921F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93484AF11C1C0C22004E921F = {
+			isa = PBXGroup;
+			children = (
+				93484AFC1C1C0C22004E921F /* SafariViewController */,
+				93484B161C1C0C22004E921F /* SafariViewControllerTests */,
+				93484B211C1C0C22004E921F /* SafariViewControllerUITests */,
+				93484AFB1C1C0C22004E921F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93484AFB1C1C0C22004E921F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93484AFA1C1C0C22004E921F /* SafariViewController.app */,
+				93484B131C1C0C22004E921F /* SafariViewControllerTests.xctest */,
+				93484B1E1C1C0C22004E921F /* SafariViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93484AFC1C1C0C22004E921F /* SafariViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93484B001C1C0C22004E921F /* AppDelegate.h */,
+				93484B011C1C0C22004E921F /* AppDelegate.m */,
+				93484B031C1C0C22004E921F /* ViewController.h */,
+				93484B041C1C0C22004E921F /* ViewController.m */,
+				93484B061C1C0C22004E921F /* Main.storyboard */,
+				93484B091C1C0C22004E921F /* Assets.xcassets */,
+				93484B0B1C1C0C22004E921F /* LaunchScreen.storyboard */,
+				93484B0E1C1C0C22004E921F /* Info.plist */,
+				93484AFD1C1C0C22004E921F /* Supporting Files */,
+			);
+			path = SafariViewController;
+			sourceTree = "<group>";
+		};
+		93484AFD1C1C0C22004E921F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93484AFE1C1C0C22004E921F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93484B161C1C0C22004E921F /* SafariViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				93484B171C1C0C22004E921F /* SafariViewControllerTests.m */,
+				93484B191C1C0C22004E921F /* Info.plist */,
+			);
+			path = SafariViewControllerTests;
+			sourceTree = "<group>";
+		};
+		93484B211C1C0C22004E921F /* SafariViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93484B221C1C0C22004E921F /* SafariViewControllerUITests.m */,
+				93484B241C1C0C22004E921F /* Info.plist */,
+			);
+			path = SafariViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93484AF91C1C0C22004E921F /* SafariViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93484B271C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewController" */;
+			buildPhases = (
+				93484AF61C1C0C22004E921F /* Sources */,
+				93484AF71C1C0C22004E921F /* Frameworks */,
+				93484AF81C1C0C22004E921F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariViewController;
+			productName = SafariViewController;
+			productReference = 93484AFA1C1C0C22004E921F /* SafariViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93484B121C1C0C22004E921F /* SafariViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93484B2A1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewControllerTests" */;
+			buildPhases = (
+				93484B0F1C1C0C22004E921F /* Sources */,
+				93484B101C1C0C22004E921F /* Frameworks */,
+				93484B111C1C0C22004E921F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93484B151C1C0C22004E921F /* PBXTargetDependency */,
+			);
+			name = SafariViewControllerTests;
+			productName = SafariViewControllerTests;
+			productReference = 93484B131C1C0C22004E921F /* SafariViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93484B1D1C1C0C22004E921F /* SafariViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93484B2D1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewControllerUITests" */;
+			buildPhases = (
+				93484B1A1C1C0C22004E921F /* Sources */,
+				93484B1B1C1C0C22004E921F /* Frameworks */,
+				93484B1C1C1C0C22004E921F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93484B201C1C0C22004E921F /* PBXTargetDependency */,
+			);
+			name = SafariViewControllerUITests;
+			productName = SafariViewControllerUITests;
+			productReference = 93484B1E1C1C0C22004E921F /* SafariViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93484AF21C1C0C22004E921F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Oisin Prendiville";
+				TargetAttributes = {
+					93484AF91C1C0C22004E921F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					93484B121C1C0C22004E921F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 93484AF91C1C0C22004E921F;
+					};
+					93484B1D1C1C0C22004E921F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 93484AF91C1C0C22004E921F;
+					};
+				};
+			};
+			buildConfigurationList = 93484AF51C1C0C22004E921F /* Build configuration list for PBXProject "SafariViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93484AF11C1C0C22004E921F;
+			productRefGroup = 93484AFB1C1C0C22004E921F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93484AF91C1C0C22004E921F /* SafariViewController */,
+				93484B121C1C0C22004E921F /* SafariViewControllerTests */,
+				93484B1D1C1C0C22004E921F /* SafariViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93484AF81C1C0C22004E921F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93484B0D1C1C0C22004E921F /* LaunchScreen.storyboard in Resources */,
+				93484B0A1C1C0C22004E921F /* Assets.xcassets in Resources */,
+				93484B081C1C0C22004E921F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93484B111C1C0C22004E921F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93484B1C1C1C0C22004E921F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93484AF61C1C0C22004E921F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93484B051C1C0C22004E921F /* ViewController.m in Sources */,
+				93484B021C1C0C22004E921F /* AppDelegate.m in Sources */,
+				93484AFF1C1C0C22004E921F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93484B0F1C1C0C22004E921F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93484B181C1C0C22004E921F /* SafariViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93484B1A1C1C0C22004E921F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93484B231C1C0C22004E921F /* SafariViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93484B151C1C0C22004E921F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93484AF91C1C0C22004E921F /* SafariViewController */;
+			targetProxy = 93484B141C1C0C22004E921F /* PBXContainerItemProxy */;
+		};
+		93484B201C1C0C22004E921F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93484AF91C1C0C22004E921F /* SafariViewController */;
+			targetProxy = 93484B1F1C1C0C22004E921F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93484B061C1C0C22004E921F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93484B071C1C0C22004E921F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93484B0B1C1C0C22004E921F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93484B0C1C1C0C22004E921F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93484B251C1C0C22004E921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93484B261C1C0C22004E921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93484B281C1C0C22004E921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafariViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93484B291C1C0C22004E921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafariViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93484B2B1C1C0C22004E921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafariViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariViewController.app/SafariViewController";
+			};
+			name = Debug;
+		};
+		93484B2C1C1C0C22004E921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafariViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariViewController.app/SafariViewController";
+			};
+			name = Release;
+		};
+		93484B2E1C1C0C22004E921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SafariViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafariViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		93484B2F1C1C0C22004E921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SafariViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafariViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93484AF51C1C0C22004E921F /* Build configuration list for PBXProject "SafariViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93484B251C1C0C22004E921F /* Debug */,
+				93484B261C1C0C22004E921F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93484B271C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93484B281C1C0C22004E921F /* Debug */,
+				93484B291C1C0C22004E921F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93484B2A1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93484B2B1C1C0C22004E921F /* Debug */,
+				93484B2C1C1C0C22004E921F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93484B2D1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93484B2E1C1C0C22004E921F /* Debug */,
+				93484B2F1C1C0C22004E921F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93484AF21C1C0C22004E921F /* Project object */;
+}
