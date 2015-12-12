@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		93484AFA1C1C0C22004E921F /* SafariViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93484AFA1C1C0C22004E921F /* SafariVCSwipeWoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariVCSwipeWoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93484AFE1C1C0C22004E921F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93484B001C1C0C22004E921F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93484B011C1C0C22004E921F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		93484B091C1C0C22004E921F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93484B0C1C1C0C22004E921F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93484B0E1C1C0C22004E921F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93484B131C1C0C22004E921F /* SafariViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93484B131C1C0C22004E921F /* SafariVCSwipeWoes.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariVCSwipeWoes.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93484B171C1C0C22004E921F /* SafariViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariViewControllerTests.m; sourceTree = "<group>"; };
 		93484B191C1C0C22004E921F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93484B1E1C1C0C22004E921F /* SafariViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93484B1E1C1C0C22004E921F /* SafariVCSwipeWoes.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariVCSwipeWoes.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93484B221C1C0C22004E921F /* SafariViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariViewControllerUITests.m; sourceTree = "<group>"; };
 		93484B241C1C0C22004E921F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		93484AFB1C1C0C22004E921F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93484AFA1C1C0C22004E921F /* SafariViewController.app */,
-				93484B131C1C0C22004E921F /* SafariViewControllerTests.xctest */,
-				93484B1E1C1C0C22004E921F /* SafariViewControllerUITests.xctest */,
+				93484AFA1C1C0C22004E921F /* SafariVCSwipeWoes.app */,
+				93484B131C1C0C22004E921F /* SafariVCSwipeWoes.xctest */,
+				93484B1E1C1C0C22004E921F /* SafariVCSwipeWoes.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93484AF91C1C0C22004E921F /* SafariViewController */ = {
+		93484AF91C1C0C22004E921F /* SafariVCSwipeWoes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93484B271C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewController" */;
+			buildConfigurationList = 93484B271C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariVCSwipeWoes" */;
 			buildPhases = (
 				93484AF61C1C0C22004E921F /* Sources */,
 				93484AF71C1C0C22004E921F /* Frameworks */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = SafariViewController;
+			name = SafariVCSwipeWoes;
 			productName = SafariViewController;
-			productReference = 93484AFA1C1C0C22004E921F /* SafariViewController.app */;
+			productReference = 93484AFA1C1C0C22004E921F /* SafariVCSwipeWoes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		93484B121C1C0C22004E921F /* SafariViewControllerTests */ = {
+		93484B121C1C0C22004E921F /* SafariVCSwipeWoesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93484B2A1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewControllerTests" */;
+			buildConfigurationList = 93484B2A1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariVCSwipeWoesTests" */;
 			buildPhases = (
 				93484B0F1C1C0C22004E921F /* Sources */,
 				93484B101C1C0C22004E921F /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				93484B151C1C0C22004E921F /* PBXTargetDependency */,
 			);
-			name = SafariViewControllerTests;
+			name = SafariVCSwipeWoesTests;
 			productName = SafariViewControllerTests;
-			productReference = 93484B131C1C0C22004E921F /* SafariViewControllerTests.xctest */;
+			productReference = 93484B131C1C0C22004E921F /* SafariVCSwipeWoes.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		93484B1D1C1C0C22004E921F /* SafariViewControllerUITests */ = {
+		93484B1D1C1C0C22004E921F /* SafariVCSwipeWoesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93484B2D1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewControllerUITests" */;
+			buildConfigurationList = 93484B2D1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariVCSwipeWoesUITests" */;
 			buildPhases = (
 				93484B1A1C1C0C22004E921F /* Sources */,
 				93484B1B1C1C0C22004E921F /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				93484B201C1C0C22004E921F /* PBXTargetDependency */,
 			);
-			name = SafariViewControllerUITests;
+			name = SafariVCSwipeWoesUITests;
 			productName = SafariViewControllerUITests;
-			productReference = 93484B1E1C1C0C22004E921F /* SafariViewControllerUITests.xctest */;
+			productReference = 93484B1E1C1C0C22004E921F /* SafariVCSwipeWoes.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93484AF51C1C0C22004E921F /* Build configuration list for PBXProject "SafariViewController" */;
+			buildConfigurationList = 93484AF51C1C0C22004E921F /* Build configuration list for PBXProject "SafariVCSwipeWoes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93484AF91C1C0C22004E921F /* SafariViewController */,
-				93484B121C1C0C22004E921F /* SafariViewControllerTests */,
-				93484B1D1C1C0C22004E921F /* SafariViewControllerUITests */,
+				93484AF91C1C0C22004E921F /* SafariVCSwipeWoes */,
+				93484B121C1C0C22004E921F /* SafariVCSwipeWoesTests */,
+				93484B1D1C1C0C22004E921F /* SafariVCSwipeWoesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -297,12 +297,12 @@
 /* Begin PBXTargetDependency section */
 		93484B151C1C0C22004E921F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 93484AF91C1C0C22004E921F /* SafariViewController */;
+			target = 93484AF91C1C0C22004E921F /* SafariVCSwipeWoes */;
 			targetProxy = 93484B141C1C0C22004E921F /* PBXContainerItemProxy */;
 		};
 		93484B201C1C0C22004E921F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 93484AF91C1C0C22004E921F /* SafariViewController */;
+			target = 93484AF91C1C0C22004E921F /* SafariVCSwipeWoes */;
 			targetProxy = 93484B1F1C1C0C22004E921F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +416,7 @@
 				INFOPLIST_FILE = SafariViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewController;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SafariVCSwipeWoes;
 			};
 			name = Debug;
 		};
@@ -427,7 +427,7 @@
 				INFOPLIST_FILE = SafariViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewController;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SafariVCSwipeWoes;
 			};
 			name = Release;
 		};
@@ -438,8 +438,8 @@
 				INFOPLIST_FILE = SafariViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariViewController.app/SafariViewController";
+				PRODUCT_NAME = SafariVCSwipeWoes;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariVCSwipeWoes.app/SafariVCSwipeWoes";
 			};
 			name = Debug;
 		};
@@ -450,8 +450,8 @@
 				INFOPLIST_FILE = SafariViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariViewController.app/SafariViewController";
+				PRODUCT_NAME = SafariVCSwipeWoes;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariVCSwipeWoes.app/SafariVCSwipeWoes";
 			};
 			name = Release;
 		};
@@ -461,7 +461,7 @@
 				INFOPLIST_FILE = SafariViewControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewControllerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SafariVCSwipeWoes;
 				TEST_TARGET_NAME = SafariViewController;
 				USES_XCTRUNNER = YES;
 			};
@@ -473,7 +473,7 @@
 				INFOPLIST_FILE = SafariViewControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SUP.SafariViewControllerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SafariVCSwipeWoes;
 				TEST_TARGET_NAME = SafariViewController;
 				USES_XCTRUNNER = YES;
 			};
@@ -482,7 +482,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93484AF51C1C0C22004E921F /* Build configuration list for PBXProject "SafariViewController" */ = {
+		93484AF51C1C0C22004E921F /* Build configuration list for PBXProject "SafariVCSwipeWoes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93484B251C1C0C22004E921F /* Debug */,
@@ -491,7 +491,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93484B271C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewController" */ = {
+		93484B271C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariVCSwipeWoes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93484B281C1C0C22004E921F /* Debug */,
@@ -499,7 +499,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		93484B2A1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewControllerTests" */ = {
+		93484B2A1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariVCSwipeWoesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93484B2B1C1C0C22004E921F /* Debug */,
@@ -507,7 +507,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		93484B2D1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariViewControllerUITests" */ = {
+		93484B2D1C1C0C22004E921F /* Build configuration list for PBXNativeTarget "SafariVCSwipeWoesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93484B2E1C1C0C22004E921F /* Debug */,

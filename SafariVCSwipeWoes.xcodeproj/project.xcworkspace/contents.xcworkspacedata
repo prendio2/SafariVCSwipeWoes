@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SafariViewController.xcodeproj">
+      location = "self:/Users/oisin/Repositories/SafariViewController/SafariVCSwipeWoes.xcodeproj">
    </FileRef>
 </Workspace>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93484AF91C1C0C22004E921F"
-               BuildableName = "SafariViewController.app"
-               BlueprintName = "SafariViewController"
-               ReferencedContainer = "container:SafariViewController.xcodeproj">
+               BuildableName = "SafariVCSwipeWoes.app"
+               BlueprintName = "SafariVCSwipeWoes"
+               ReferencedContainer = "container:SafariVCSwipeWoes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93484B121C1C0C22004E921F"
-               BuildableName = "SafariViewControllerTests.xctest"
-               BlueprintName = "SafariViewControllerTests"
-               ReferencedContainer = "container:SafariViewController.xcodeproj">
+               BuildableName = "SafariVCSwipeWoes.xctest"
+               BlueprintName = "SafariVCSwipeWoesTests"
+               ReferencedContainer = "container:SafariVCSwipeWoes.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93484B1D1C1C0C22004E921F"
-               BuildableName = "SafariViewControllerUITests.xctest"
-               BlueprintName = "SafariViewControllerUITests"
-               ReferencedContainer = "container:SafariViewController.xcodeproj">
+               BuildableName = "SafariVCSwipeWoes.xctest"
+               BlueprintName = "SafariVCSwipeWoesUITests"
+               ReferencedContainer = "container:SafariVCSwipeWoes.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93484AF91C1C0C22004E921F"
-            BuildableName = "SafariViewController.app"
-            BlueprintName = "SafariViewController"
-            ReferencedContainer = "container:SafariViewController.xcodeproj">
+            BuildableName = "SafariVCSwipeWoes.app"
+            BlueprintName = "SafariVCSwipeWoes"
+            ReferencedContainer = "container:SafariVCSwipeWoes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93484AF91C1C0C22004E921F"
-            BuildableName = "SafariViewController.app"
-            BlueprintName = "SafariViewController"
-            ReferencedContainer = "container:SafariViewController.xcodeproj">
+            BuildableName = "SafariVCSwipeWoes.app"
+            BlueprintName = "SafariVCSwipeWoes"
+            ReferencedContainer = "container:SafariVCSwipeWoes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93484AF91C1C0C22004E921F"
-            BuildableName = "SafariViewController.app"
-            BlueprintName = "SafariViewController"
-            ReferencedContainer = "container:SafariViewController.xcodeproj">
+            BuildableName = "SafariVCSwipeWoes.app"
+            BlueprintName = "SafariVCSwipeWoes"
+            ReferencedContainer = "container:SafariVCSwipeWoes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
