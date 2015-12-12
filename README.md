@@ -16,7 +16,8 @@ Safari View Controller is not released if the status bar is animating a style ch
 
 ## Actual Results:
 1. The initial Safari VC is still in memory and still referenced as the presentedViewController
-2. I cannot present another Safari VC
+2. This presentedViewController cannot be dismissed
+3. I cannot present another Safari VC
 
 ## Regression:
 Tested in iOS 9.2 simulator and on an iPhone 6S
