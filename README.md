@@ -1,6 +1,6 @@
 # SafariVCSwipeWoes
 
-Sample project for [rdar://23871289](http://openradar.appspot.com/23871289)
+Sample project for [rdar://23871289](http://openradar.appspot.com/23871289). **This is still not fixed in iOS 9.2.1.**
 
 ## Summary:
 Safari View Controller is not released if the status bar is animating a style change when swiping back and user ends the interaction before the status bar animation is completed 
